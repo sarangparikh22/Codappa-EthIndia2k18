@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Submit a Research Paper</title>
+        <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+        <script src="./app.js"></script>
+        <script>
+        </script>
+    </head>
+    <body onload="test1()">
+        <form>
+        <input type="text" placeholder="Principal" id="principalText"><br>
+        <input type="text" placeholder="Interest" id="interestText"><br>
+        <input type="text" placeholder="Period" id="periodText"><br>
+        Research Paper<br>
+        <progress value="0" max="100" id="uploader">0%</progress>
+        <input type="file" id="myFile" multiple size="50"><br>
+        <input type="button" value="Publish" onclick="check()">
+        </form>
+    </body>
+</html>
